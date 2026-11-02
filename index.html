@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sophia Lewis-Haaland — Headhunter · People &amp; Talent</title>
+<meta name="description" content="Sophia Lewis-Haaland — People & Talent professional and technology headhunter in Stavanger, Norway.">
+<meta property="og:title" content="Sophia Lewis-Haaland — Headhunter · People & Talent">
+<meta property="og:description" content="People & Talent professional and technology headhunter in Stavanger, Norway.">
+<meta property="og:image" content="sophia.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%232E7D5B'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FAFAF7; --panel:#F1EFE6; --line:rgba(21,21,19,.12);
+  --ink:#151513; --muted:rgba(21,21,19,.62);
+  --sage:#A9B79A; --olive:#6B7340; --emerald:#2E7D5B; --khaki:#C8B88A;
+  --serif:"Newsreader", Georgia, "Times New Roman", serif;
+  --sans:"Instrument Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --wrap:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+html[data-lang="en"] [lang="nb"]{display:none!important}
+html[data-lang="nb"] [lang="en"]{display:none!important}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 32px}
+
+/* header */
+header{position:sticky;top:0;z-index:20;background:rgba(250,250,247,.86);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s}
+header.scrolled{border-bottom-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;white-space:nowrap}
+.brand .dot{width:14px;height:14px;border-radius:50%;background:var(--emerald)}
+.brand b{font-weight:600;font-size:17px}
+.brand small{color:var(--muted);font-size:14px}
+.links{display:flex;gap:28px;font-size:15px}
+.links a{text-decoration:none;color:var(--muted);transition:color .2s}
+.links a:hover{color:var(--ink)}
+.toggle{display:inline-flex;background:#ECEAE2;border-radius:999px;padding:4px;gap:2px}
+.toggle button{border:0;background:transparent;font:500 14px var(--sans);padding:7px 14px;border-radius:999px;cursor:pointer;color:var(--muted);transition:all .25s}
+.toggle button[aria-pressed="true"]{background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.08)}
+
+/* hero */
+.hero{padding:72px 0 56px}
+.hero-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:72px;align-items:center}
+.photo{aspect-ratio:1;border-radius:50%;overflow:hidden;max-width:470px;width:100%;justify-self:center;background:var(--panel)}
+.photo-col{display:flex;flex-direction:column;align-items:center;gap:22px;width:100%}
+.icons{display:flex;gap:12px;justify-content:center}
+.loc{display:flex;align-items:center;gap:6px;margin:-8px 0 0;color:var(--muted);font-size:15px}
+.loc svg{width:17px;height:17px;color:var(--emerald)}
+.ico{width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid var(--line);color:var(--ink);transition:transform .25s,background .25s,color .25s,border-color .25s}
+.ico svg{width:19px;height:19px}
+.ico:hover,.ico:focus-visible{transform:translateY(-3px);background:var(--emerald);border-color:var(--emerald);color:#fff}
+.photo img{width:100%;height:100%;object-fit:cover}
+.hello{font-family:var(--serif);font-weight:400;font-size:clamp(72px,10vw,132px);line-height:.95;letter-spacing:-.02em;margin:0 0 20px}
+.lead{font-size:22px;line-height:1.45;font-weight:500;margin:0 0 12px}
+.intro{color:var(--muted);font-size:18px;max-width:520px;margin:0 0 36px}
+.circles{display:flex;gap:18px;flex-wrap:wrap}
+.circle{width:148px;height:148px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-align:center;text-decoration:none;font-weight:600;font-size:16px;line-height:1.2;padding:12px;transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s}
+.circle:hover,.circle:focus-visible{transform:translateY(-6px) scale(1.04);box-shadow:0 14px 30px rgba(21,21,19,.14)}
+.c1{background:var(--sage);color:var(--ink)}
+.c2{background:var(--olive);color:#fff}
+.c3{background:var(--emerald);color:#fff}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:56px;justify-content:center}
+.tag{border:1px solid var(--line);border-radius:999px;padding:8px 18px;font-size:15px;color:var(--muted);background:#fff}
+
+/* sections */
+section{padding:56px 0}
+.panel{background:var(--panel);border-radius:28px;padding:80px 64px}
+.eyebrow{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--olive);font-weight:600;margin:0 0 14px}
+h2{font-family:var(--serif);font-weight:400;font-size:clamp(38px,4.6vw,58px);line-height:1.05;letter-spacing:-.015em;margin:0 0 28px}
+h3{font-size:22px;font-weight:600;line-height:1.3;margin:0}
+.row{display:grid;grid-template-columns:1fr 1.25fr;gap:64px;padding:36px 0;border-top:1px solid var(--line)}
+.row:first-of-type{border-top:0;padding-top:0}
+.row h3{font-size:28px;font-weight:500;letter-spacing:-.01em}
+.row p{color:var(--muted);font-size:19px;margin:0 0 14px}
+
+/* clients marquee */
+.clients{padding:40px 0 56px;overflow:hidden}
+.clients .label{text-align:center;color:var(--muted);font-size:15px;margin-bottom:26px}
+.marquee{display:flex;width:max-content;animation:scroll 48s linear infinite}
+.marquee:hover{animation-play-state:paused}
+.marquee span{font-family:var(--serif);font-size:30px;white-space:nowrap;padding:0 30px;color:#3b3b36;display:flex;align-items:center;gap:60px}
+.marquee span::after{content:"";width:8px;height:8px;border-radius:50%;background:var(--khaki)}
+.fade{mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* experience */
+.job{display:grid;grid-template-columns:260px 1fr;gap:48px;padding:40px 0;border-top:1px solid var(--line)}
+.job:first-of-type{border-top:0}
+.job .when{color:var(--muted);font-size:15px}
+.job .where{font-weight:600;font-size:18px;margin-top:6px;color:var(--ink)}
+.job .place{font-size:15px;color:var(--muted)}
+.job .role{font-family:var(--serif);font-size:28px;line-height:1.2;margin:0 0 16px}
+.job ul{margin:0;padding:0;list-style:none}
+.job li{position:relative;padding-left:24px;margin:0 0 10px;color:var(--muted)}
+.job li::before{content:"";position:absolute;left:0;top:.65em;width:8px;height:8px;border-radius:50%;background:var(--sage)}
+.job.earlier li::before{background:var(--khaki)}
+
+/* education & certs */
+.edu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px}
+.card .yr{font-size:14px;color:var(--olive);font-weight:600}
+.card h3{font-size:19px;margin:8px 0 6px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.chips span{font-size:13px;background:var(--panel);border-radius:999px;padding:4px 10px;color:#4a4a44}
+.certs{display:grid;grid-template-columns:repeat(2,1fr);gap:0 48px;margin-top:48px}
+.cert{display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-top:1px solid var(--line);font-size:16px}
+.cert span:last-child{color:var(--muted);white-space:nowrap;font-size:15px}
+.langs{display:flex;gap:16px;flex-wrap:wrap;margin-top:40px}
+.lang{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:10px 20px 10px 10px}
+.lang i{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-style:normal;font-size:12px;font-weight:600;color:#fff;background:var(--emerald)}
+.lang i.n{background:var(--olive)}
+
+/* recommendations */
+.recs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.rec{background:#fff;border-radius:22px;padding:30px;display:flex;flex-direction:column;border:1px solid var(--line)}
+.rec blockquote{margin:0 0 24px;font-family:var(--serif);font-size:20px;line-height:1.45;flex:1}
+.rec blockquote::before{content:"“";display:block;font-size:54px;line-height:.6;color:var(--sage);margin-bottom:10px}
+.rec .who{display:flex;align-items:center;gap:12px}
+.rec .av{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:15px;flex:none}
+.rec b{display:block;font-size:15px}
+.rec small{display:block;color:var(--muted);font-size:13px;line-height:1.4}
+.note{color:var(--muted);font-size:14px;margin-top:20px;text-align:center}
+
+/* contact */
+.contact{text-align:center}
+.contact h2{font-size:clamp(48px,7vw,92px);margin-bottom:18px}
+.contact .intro{margin:0 auto 40px;max-width:560px}
+.ways{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+.pill{display:inline-flex;align-items:center;gap:10px;padding:14px 24px;border-radius:999px;text-decoration:none;font-weight:500;font-size:16px;transition:transform .25s,background .25s}
+.pill:hover{transform:translateY(-2px)}
+.pill.dark{background:var(--ink);color:#fff}
+.pill.light{background:#fff;border:1px solid var(--line)}
+.pill svg{width:18px;height:18px}
+
+footer{padding:40px 0 48px;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:28px}
+.top{position:fixed;right:22px;bottom:22px;z-index:15;background:#fff;border:1px solid var(--line);border-radius:999px;padding:9px 16px;font:500 14px var(--sans);color:var(--ink);text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:all .3s;box-shadow:0 4px 14px rgba(0,0,0,.06)}
+.top.show{opacity:1;pointer-events:auto;transform:none}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+.js-off .reveal{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  .reveal{opacity:1;transform:none;transition:none}
+  .marquee{animation:none;flex-wrap:wrap;width:auto;justify-content:center}
+  html{scroll-behavior:auto}
+}
+
+
+/* subtle motion */
+.circle{animation:float 7s ease-in-out infinite}
+.c2{animation-delay:-2.3s}.c3{animation-delay:-4.6s}
+@keyframes float{0%,100%{translate:0 0}50%{translate:0 -7px}}
+.caret{display:inline-block;width:2px;height:1em;background:var(--emerald);margin-left:3px;vertical-align:-0.12em;animation:blink 1s steps(1) infinite}
+.caret.done{animation:blink 1s steps(1) 3,fadeout .6s 3s forwards}
+@keyframes blink{50%{opacity:0}}
+@keyframes fadeout{to{opacity:0}}
+#headline .rest{transition:opacity .9s ease, filter .9s ease}
+#headline .rest.hide{opacity:0;filter:blur(4px)}
+#headline .rest.show{opacity:1;filter:none}
+.caret.done{position:absolute}
+#headline .typed{position:relative}
+@media (prefers-reduced-motion:reduce){.circle{animation:none}.caret{display:none}}
+
+/* responsive */
+@media (max-width:980px){
+  .links{display:none}
+  .hero-grid{grid-template-columns:1fr;gap:44px;text-align:center}
+  .intro{margin-left:auto;margin-right:auto}
+  .circles{justify-content:center}
+  .photo{max-width:340px}
+  .row,.job{grid-template-columns:1fr;gap:14px}
+  .edu-grid,.recs{grid-template-columns:1fr 1fr}
+  .certs{grid-template-columns:1fr}
+  .panel{padding:56px 32px}
+}
+@media (max-width:640px){
+  .wrap{padding:0 18px}
+  .brand small{display:none}
+  .hero{padding:40px 0 32px}
+  .circle{width:104px;height:104px;font-size:14px}
+  .circles{gap:12px}
+  .edu-grid,.recs{grid-template-columns:1fr}
+  .panel{padding:44px 22px;border-radius:22px}
+  .row h3{font-size:24px}.row p{font-size:17px}
+  .job .role{font-size:24px}
+  .marquee span{font-size:24px;padding:0 20px;gap:40px}
+}
+</style>
+</head>
+<body>
+
+<header id="hdr">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Sophia Lewis-Haaland, home">
+      <span class="dot"></span><b>Sophia Lewis-Haaland</b>
+      <small lang="en">Headhunter · People &amp; Talent</small><small lang="nb">Headhunter · People &amp; Talent</small>
+    </a>
+    <nav class="links" aria-label="Main">
+      <a href="#about"><span lang="en">About</span><span lang="nb">Om meg</span></a>
+      <a href="#experience"><span lang="en">Experience</span><span lang="nb">Erfaring</span></a>
+      <a href="#education"><span lang="en">Education</span><span lang="nb">Utdanning</span></a>
+      <a href="#recommendations"><span lang="en">Recommendations</span><span lang="nb">Anbefalinger</span></a>
+      <a href="#contact"><span lang="en">Contact</span><span lang="nb">Kontakt</span></a>
+    </nav>
+    <div class="toggle" role="group" aria-label="Language">
+      <button type="button" data-set="en" aria-pressed="true">EN</button>
+      <button type="button" data-set="nb" aria-pressed="false">NO</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div class="photo-col reveal">
+          <div class="photo"><img src="sophia.jpg" alt="Portrait of Sophia Lewis-Haaland" width="760" height="760"></div>
+          <div class="icons">
+            <a class="ico" href="mailto:sophia@coneqt.no" aria-label="Email sophia@coneqt.no" title="sophia@coneqt.no"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></svg></a>
+            <a class="ico" href="tel:+4745516005" aria-label="Phone +47 455 16 005" title="+47 455 16 005"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></a>
+            <a class="ico" href="https://www.linkedin.com/in/sophia-lewis-haaland-94b931110" aria-label="LinkedIn profile" title="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5M3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V21h-4z"/></svg></a>
+          </div>
+          <p class="loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span lang="en">Stavanger, Norway</span><span lang="nb">Stavanger, Norge</span></p>
+        </div>
+        <div class="reveal">
+          <h1 class="lead" id="headline"><span lang="en"><span class="typed">I'm Sophia</span><span class="rest"> — a People &amp; Talent Advisor within Technology.</span></span><span lang="nb"><span class="typed">Jeg er Sophia</span><span class="rest"> – People &amp; Talent-rådgiver innen teknologi.</span></span></h1>
+          <p class="intro"><span lang="en">Originally from Brisbane, Australia, via London, I've spent 8+ years helping technology companies find the right people — and helping people find work that truly suits them.</span><span lang="nb">Opprinnelig fra Brisbane i Australia, via London. I over 8 år har jeg hjulpet teknologiselskaper med å finne de rette menneskene – og mennesker med å finne arbeid som virkelig passer dem.</span></p>
+          <div class="circles">
+            <a class="circle c1" href="#experience"><span lang="en">Experience</span><span lang="nb">Erfaring</span></a>
+            <a class="circle c2" href="#recommendations"><span lang="en">Recommend&shy;ations</span><span lang="nb">Anbe&shy;falinger</span></a>
+            <a class="circle c3" href="#education"><span lang="en">Education</span><span lang="nb">Utdanning</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="tags reveal">
+        <span class="tag"><span lang="en">AI enthusiast</span><span lang="nb">AI-entusiast</span></span>
+        <span class="tag"><span lang="en">People centric</span><span lang="nb">Menneskeorientert</span></span>
+        <span class="tag"><span lang="en">Digital &amp; technology focussed</span><span lang="nb">Digital- og teknologifokusert</span></span>
+        <span class="tag"><span lang="en">Solution orientated</span><span lang="nb">Løsningsorientert</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap">
+      <div class="panel reveal">
+        <p class="eyebrow"><span lang="en">About</span><span lang="nb">Om meg</span></p>
+        <h2><span lang="en">People first, with a technical ear.</span><span lang="nb">Mennesker først – med teknisk teft.</span></h2>
+        <div class="row">
+          <h3><span lang="en">Professional summary</span><span lang="nb">Profesjonelt sammendrag</span></h3>
+          <div>
+            <p lang="en">People &amp; Talent professional with 8+ years' experience advising leaders and stakeholders across the full talent lifecycle — from workforce planning and compensation benchmarking to full-cycle recruitment.</p>
+            <p lang="en">Background in Psychology, with postgraduate study in HR leadership. Skilled at partnering with multiple stakeholders simultaneously and balancing strategic advisory work with project delivery. Motivated by continuous learning and improvement — for the organisation and for myself.</p>
+            <p lang="nb">People &amp; Talent-rådgiver med over 8 års erfaring med å gi råd til ledere og interessenter gjennom hele talentlivssyklusen – fra arbeidskraftplanlegging og lønnsbenchmarking til komplette rekrutteringsprosesser.</p>
+            <p lang="nb">Bakgrunn i psykologi, med videreutdanning i HR-ledelse. Trives med å samarbeide med mange interessenter samtidig og balansere strategisk rådgivning med prosjektleveranser. Motivert av kontinuerlig læring og forbedring – for organisasjonen og for meg selv.</p>
+          </div>
+        </div>
+        <div class="row">
+          <h3><span lang="en">A little about me</span><span lang="nb">Litt om meg</span></h3>
+          <div>
+            <p lang="en">I studied Psychology at the University of Queensland, but I knew I wanted to work in tech — combining technology and people made recruitment a natural fit. After starting out in London, I settled in Stavanger, where I've immersed myself in Norwegian language and culture.</p>
+            <p lang="en">My favourite part of the job is learning the how, the what and the why behind the technical decisions candidates make. I recently completed a course in HR Leadership (taught entirely in Norwegian!) and I'm exploring an MBA to better understand the relationship between business, technology and people in the age of AI.</p>
+            <p lang="nb">Jeg studerte psykologi ved University of Queensland, men visste at jeg ville jobbe med teknologi – kombinasjonen av teknologi og mennesker gjorde rekruttering til et naturlig valg. Etter oppstarten i London slo jeg meg ned i Stavanger, der jeg har fordypet meg i norsk språk og kultur.</p>
+            <p lang="nb">Det jeg liker best med jobben, er å lære hvordan, hva og hvorfor bak de tekniske valgene kandidatene tar. Jeg har nylig fullført et kurs i HR-ledelse (helt på norsk!) og utforsker en MBA for å forstå samspillet mellom forretning, teknologi og mennesker i KI-alderen enda bedre.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENTS -->
+  <div class="clients reveal" aria-label="Clients">
+    <div class="label"><span lang="en">Some of the clients we work with at Coneqt</span><span lang="nb">Noen av kundene vi jobber med hos Coneqt</span></div>
+    <div class="fade"><div class="marquee" id="marquee">
+      <span>Advania Norge</span><span>Cegal</span><span>Sysco</span><span>Atea</span><span>Knowit</span><span>Amina Charging</span><span>Munu</span><span>Sopra Steria</span><span>Miles</span><span>Netpower</span><span>BDO</span><span>Bike Finder</span><span>TietoEvry</span><span>Boost.ai</span><span>eFab</span><span>Aker BP</span>
+    </div></div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="wrap">
+      <p class="eyebrow reveal"><span lang="en">Experience</span><span lang="nb">Erfaring</span></p>
+      <h2 class="reveal"><span lang="en">Where I've worked</span><span lang="nb">Hvor jeg har jobbet</span></h2>
+
+      <article class="job reveal">
+        <div><div class="when"><span lang="en">Oct 2019 – Present</span><span lang="nb">Okt. 2019 – nå</span></div><div class="where">Coneqt AS</div><div class="place"><span lang="en">(formerly Kefi AS) · Stavanger, Norway</span><span lang="nb">(tidligere Kefi AS) · Stavanger</span></div></div>
+        <div>
+          <p class="role">Headhunter | People &amp; Talent Strategy – Technology</p>
+          <ul lang="en">
+            <li>Partner with clients and hiring managers across the technology sector to define hiring needs, advise on talent strategy, and manage full recruitment lifecycles for consulting and permanent placements</li>
+            <li>Advise clients and candidates on compensation &amp; benefits, salary benchmarking and market trends to support workforce planning decisions and personal expectations</li>
+            <li>Foster employment law compliance across the candidate lifecycle, such as right-to-work requirements, vacation pay and sick leave</li>
+            <li>Coach candidates through interview preparation and career progression discussions; provide structured feedback and performance reviews</li>
+            <li>Manage multiple concurrent client projects, balancing strategic advisory work (employer branding, professional development planning) with operational delivery (budgets, timelines, CRM management)</li>
+            <li>Conduct reference checks and support personality testing to ascertain candidate suitability</li>
+            <li>Serve as primary point of contact between talent and clients throughout the recruitment process</li>
+          </ul>
+          <ul lang="nb">
+            <li>Samarbeider med kunder og ansettende ledere i teknologibransjen om å definere rekrutteringsbehov, gi råd om talentstrategi og lede komplette rekrutteringsprosesser for konsulentoppdrag og faste stillinger</li>
+            <li>Gir kunder og kandidater råd om lønn og goder, lønnsbenchmarking og markedstrender som grunnlag for arbeidskraftplanlegging og personlige forventninger</li>
+            <li>Bidrar til etterlevelse av arbeidsrettslige krav gjennom hele kandidatløpet, som arbeidstillatelse, feriepenger og sykefravær</li>
+            <li>Coacher kandidater i intervjuforberedelser og karrieresamtaler; gir strukturerte tilbakemeldinger og evalueringer</li>
+            <li>Håndterer flere kundeprosjekter parallelt og balanserer strategisk rådgivning (employer branding, kompetanseutvikling) med operativ leveranse (budsjetter, tidslinjer, CRM)</li>
+            <li>Gjennomfører referansesjekker og bistår med personlighetstester for å vurdere kandidaters egnethet</li>
+            <li>Er hovedkontakt mellom kandidater og kunder gjennom hele rekrutteringsprosessen</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job reveal">
+        <div><div class="when"><span lang="en">Apr 2018 – May 2019</span><span lang="nb">Apr. 2018 – mai 2019</span></div><div class="where">Tecknuovo</div><div class="place"><span lang="en">London, UK</span><span lang="nb">London, Storbritannia</span></div></div>
+        <div>
+          <p class="role">DevOps Recruitment Consultant</p>
+          <ul lang="en">
+            <li>Headhunted and built long-term relationships with candidates and clients in the DevOps and cloud technology space</li>
+            <li>Screened, interviewed and shortlisted candidates against client requirements; coordinated end-to-end interview processes</li>
+            <li>Attended technical training across cloud platforms, containerisation, microservices and frontend/backend systems to strengthen technical screening capability</li>
+          </ul>
+          <ul lang="nb">
+            <li>Headhuntet og bygget langsiktige relasjoner med kandidater og kunder innen DevOps og skyteknologi</li>
+            <li>Screenet, intervjuet og valgte ut kandidater etter kundens krav; koordinerte hele intervjuprosessen</li>
+            <li>Deltok på teknisk opplæring i skyplattformer, containerisering, mikrotjenester og frontend/backend-systemer for å styrke den tekniske screeningen</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job reveal">
+        <div><div class="when"><span lang="en">Nov 2017 – Apr 2018</span><span lang="nb">Nov. 2017 – apr. 2018</span></div><div class="where">Futureboard Consulting</div><div class="place"><span lang="en">London, UK</span><span lang="nb">London, Storbritannia</span></div></div>
+        <div>
+          <p class="role"><span lang="en">Candidate Co-ordinator, BT Graduate Programme</span><span lang="nb">Kandidatkoordinator, BTs traineeprogram</span></p>
+          <ul lang="en">
+            <li>Managed and maintained the graduate programme candidate pipeline, liaising with hiring managers to oversee service-level agreement targets</li>
+            <li>Screened CVs and scheduled candidates for interviews, technical calls and assessment centres</li>
+            <li>Delivered interview outcomes and feedback to candidates, maintaining complete records at every stage of the process</li>
+          </ul>
+          <ul lang="nb">
+            <li>Administrerte kandidatpipelinen for traineeprogrammet i tett dialog med ansettende ledere for å følge opp SLA-mål</li>
+            <li>Gikk gjennom CV-er og satte opp intervjuer, tekniske samtaler og assessment-sentre</li>
+            <li>Formidlet resultater og tilbakemeldinger til kandidater og førte fullstendig dokumentasjon gjennom hele prosessen</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job earlier reveal">
+        <div><div class="when">2013 – 2017</div><div class="where"><span lang="en">Earlier experience</span><span lang="nb">Tidligere erfaring</span></div><div class="place"><span lang="en">London, UK &amp; Brisbane, Australia</span><span lang="nb">London og Brisbane</span></div></div>
+        <div>
+          <ul lang="en">
+            <li>Phoenix Equity Partners — Team Assistant (1-month contract)</li>
+            <li>Lewis &amp; Trovas Family Lawyers — Executive Assistant (6-month contract)</li>
+            <li>Inspirato Group Global — Personal Assistant</li>
+            <li>Phillips Family Law — Administration Assistant</li>
+            <li>Barnes Home Loans — Settlements, Lending &amp; Administration Assistant</li>
+          </ul>
+          <ul lang="nb">
+            <li>Phoenix Equity Partners — teamassistent (1-måneds kontrakt)</li>
+            <li>Lewis &amp; Trovas Family Lawyers — direktørassistent (6-måneders kontrakt)</li>
+            <li>Inspirato Group Global — personlig assistent</li>
+            <li>Phillips Family Law — administrasjonsassistent</li>
+            <li>Barnes Home Loans — assistent innen oppgjør, utlån og administrasjon</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="wrap">
+      <div class="panel reveal">
+        <p class="eyebrow"><span lang="en">Education &amp; certifications</span><span lang="nb">Utdanning og sertifiseringer</span></p>
+        <div class="edu-grid">
+          <div class="card">
+            <div class="yr">2026</div>
+            <h3><span lang="en">HR Ledelse (HR Management &amp; Leadership)</span><span lang="nb">HR-ledelse</span></h3>
+            <p><span lang="en">Postgraduate course · NKI</span><span lang="nb">Videreutdanning · NKI</span></p>
+            <div class="chips"><span lang="en">Strategic HR planning</span><span lang="en">Organisational psychology</span><span lang="en">Change management</span><span lang="nb">Strategisk HR</span><span lang="nb">Organisasjonspsykologi</span><span lang="nb">Endringsledelse</span></div>
+          </div>
+          <div class="card">
+            <div class="yr">2016</div>
+            <h3><span lang="en">Bachelor of Arts — Extended Major in Psychology, Minor in Studies of Religion</span><span lang="nb">Bachelor of Arts – utvidet hovedfag i psykologi, bifag i religionsvitenskap</span></h3>
+            <p>The University of Queensland</p>
+            <div class="chips"><span lang="en">Occupational</span><span lang="en">Social</span><span lang="en">Motivational</span><span lang="en">Cognitive &amp; behavioural</span><span lang="nb">Arbeidspsykologi</span><span lang="nb">Sosialpsykologi</span><span lang="nb">Motivasjon</span><span lang="nb">Kognitiv og atferd</span></div>
+          </div>
+          <div class="card">
+            <div class="yr">2010</div>
+            <h3><span lang="en">Queensland Certificate of Education</span><span lang="nb">Queensland Certificate of Education (videregående)</span></h3>
+            <p>Brisbane Girls Grammar School</p>
+          </div>
+        </div>
+
+        <div class="certs">
+          <div class="cert"><span><span lang="en">Norwegian Language B1</span><span lang="nb">Norsk språk B1</span> · Johannes læringssenter</span><span>2026</span></div>
+          <div class="cert"><span>Working with Prehire Assessments · LinkedIn Learning</span><span>2026</span></div>
+          <div class="cert"><span>Using AI to Improve Human Resources Practices · LinkedIn Learning</span><span>2026</span></div>
+          <div class="cert"><span>Generative AI, Recruiting, and Talent Acquisition · LinkedIn Learning</span><span>2026</span></div>
+          <div class="cert"><span>How to Use Generative AI: Building an AI-First Mindset · LinkedIn Learning</span><span>2026</span></div>
+          <div class="cert"><span>Python · Go · Kubernetes · <span lang="en">Cybersecurity awareness</span><span lang="nb">Cybersikkerhet</span> · LinkedIn Learning</span><span>2019</span></div>
+          <div class="cert"><span><span lang="en">TEFL Certificate</span><span lang="nb">TEFL-sertifikat (engelskundervisning)</span> · International TEFL Academy</span><span>2018</span></div>
+          <div class="cert"><span><span lang="en">Certificate of Nonviolent Communication</span><span lang="nb">Sertifikat i ikkevoldelig kommunikasjon</span></span><span>2016</span></div>
+          <div class="cert"><span>Diploma of Communication in Action · AMEB</span><span>2009</span></div>
+        </div>
+
+        <div class="langs">
+          <div class="lang"><i>EN</i><span><span lang="en">English — native</span><span lang="nb">Engelsk – morsmål</span></span></div>
+          <div class="lang"><i class="n">NO</i><span><span lang="en">Norwegian — B1</span><span lang="nb">Norsk – B1</span></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECOMMENDATIONS -->
+  <section id="recommendations">
+    <div class="wrap">
+      <p class="eyebrow reveal"><span lang="en">Recommendations</span><span lang="nb">Anbefalinger</span></p>
+      <h2 class="reveal"><span lang="en">In their words</span><span lang="nb">Med deres ord</span></h2>
+      <div class="recs">
+        <figure class="rec reveal" style="margin:0">
+          <blockquote>Sophia was instrumental in landing me a new role. She got a clear read on what I was looking for, and just as importantly what I wasn't, and matched that accurately to the role. Communication was clean and direct throughout, and nothing fell between the cracks. Highly recommend her, both for candidates and companies looking for help to hire!</blockquote>
+          <figcaption class="who"><span class="av" style="background:var(--sage)">AH</span><span><b>Andreas Hustad</b><small>Technical Project Manager &amp; AI Officer, Netpower · 2026</small></span></figcaption>
+        </figure>
+        <figure class="rec reveal" style="margin:0">
+          <blockquote>Sophia was on top of everything throughout the entire recruitment process. Quick responses, kept me in the loop, and actually followed up after everything was wrapped up too. Highly recommended!</blockquote>
+          <figcaption class="who"><span class="av" style="background:var(--olive);color:#fff">JF</span><span><b>Johannes Reinshorn Falnes</b><small>Solution Sales Specialist – Public Cloud · 2026</small></span></figcaption>
+        </figure>
+        <figure class="rec reveal" style="margin:0">
+          <blockquote>Thank you Sophia for your guidance and trust in me. Your support and efforts in setting up the interview were crucial in helping me secure my new job. I truly appreciate everything you've done. I highly recommend Sophia, she finds the best match between a company and the candidate.</blockquote>
+          <figcaption class="who"><span class="av" style="background:var(--emerald);color:#fff">IB</span><span><b>Ingrid Birkedal</b><small>Senior Engineer, Project Management · 2024</small></span></figcaption>
+        </figure>
+        <figure class="rec reveal" style="margin:0">
+          <blockquote>I ended up getting an amazing role thanks to Sophia. We have had great conversations on career development and Sophia knew how to ask the right questions to make me reflect. For her, it is not just about making the sale, but really finding the best match between a candidate and a company.</blockquote>
+          <figcaption class="who"><span class="av" style="background:var(--khaki)">DB</span><span><b>Daniel Barati</b><small>Head of Analytics &amp; Operational Excellence, Kavli and Q-Meieriene · 2021</small></span></figcaption>
+        </figure>
+        <figure class="rec reveal" style="margin:0">
+          <blockquote>I got headhunted by Sophia, and within a week I had been to a first and second interview, and received a job offer. Sophia [is] great, and if my experience is anything to go by, she gets results. If you ever get the opportunity to be her client, you're in good hands.</blockquote>
+          <figcaption class="who"><span class="av" style="background:var(--sage)">MH</span><span><b>Morten Hallgren</b><small>Developer · 2019</small></span></figcaption>
+        </figure>
+        <figure class="rec reveal" style="margin:0">
+          <blockquote>Sophia is a diligent, well-organised and knowledgable recruiter who helped me land my first contracting role. If it wasn't for her, I don't think I would have made the leap. Her laid back demeanour and her genuine sense of care was a breath of fresh air; it really made me feel like she was honestly trying to help me make the best decision possible for my career. I highly recommend her to anyone in the contracting market, and especially if you're looking to make the change yourself.</blockquote>
+          <figcaption class="who"><span class="av" style="background:var(--olive);color:#fff">MP</span><span><b>Matthew Perrott</b><small>Tech Lead – Cloud Foundations, PayPay Corporation · 2019</small></span></figcaption>
+        </figure>
+      </div>
+      <p class="note"><span lang="en">From my LinkedIn recommendations.</span><span lang="nb">Fra mine anbefalinger på LinkedIn (originalt på engelsk).</span></p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="panel contact reveal">
+        <p class="eyebrow"><span lang="en">Contact</span><span lang="nb">Kontakt</span></p>
+        <h2><span lang="en">Let's grab a coffee</span><span lang="nb">Skal vi ta en kaffe?</span></h2>
+        <p class="intro"><span lang="en">Whether you're hiring, thinking about your next move, or just want to talk people and technology — I'd love to hear from you.</span><span lang="nb">Enten du skal ansette, vurderer neste steg i karrieren, eller bare vil prate om mennesker og teknologi – jeg vil gjerne høre fra deg.</span></p>
+        <div class="ways">
+          <a class="pill dark" href="mailto:sophia@coneqt.no"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>sophia@coneqt.no</a>
+          <a class="pill light" href="tel:+4745516005"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>+47 455 16 005</a>
+          <a class="pill light" href="https://www.linkedin.com/in/sophia-lewis-haaland-94b931110"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5M3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V21h-4z"/></svg>LinkedIn</a>
+        </div>
+        <p class="note"><span lang="en">Based in Stavanger, Norway</span><span lang="nb">Basert i Stavanger</span></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap"><span>© 2026 Sophia Lewis-Haaland</span><span lang="en">Stavanger, Norway</span><span lang="nb">Stavanger, Norge</span></div></footer>
+<a class="top" id="toTop" href="#top"><span lang="en">↑ Back to top</span><span lang="nb">↑ Til toppen</span></a>
+
+<script>
+(function(){
+  var root=document.documentElement;
+  function setLang(l){
+    root.setAttribute('data-lang',l);
+    root.setAttribute('lang', l==='nb'?'nb':'en');
+    document.querySelectorAll('.toggle button').forEach(function(b){b.setAttribute('aria-pressed', String(b.dataset.set===l));});
+    try{localStorage.setItem('slh-lang',l);}catch(e){}
+  }
+  var saved=null; try{saved=localStorage.getItem('slh-lang');}catch(e){}
+  setLang(saved || ((navigator.language||'').toLowerCase().match(/^(nb|nn|no)/)?'nb':'en'));
+  document.querySelectorAll('.toggle button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.set);});});
+
+
+  // typing headline: type the name, then reveal the rest
+  var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var h=document.getElementById('headline'), timer=null;
+  var names={}; h.querySelectorAll(':scope > [lang]').forEach(function(sp){names[sp.getAttribute('lang')]=sp.querySelector('.typed').textContent;});
+  function play(){
+    var l=root.getAttribute('data-lang'), sp=h.querySelector(':scope > [lang="'+l+'"]');
+    h.setAttribute('aria-label', sp.textContent);
+    if(reduce) return;
+    clearTimeout(timer);
+    var typed=sp.querySelector('.typed'), rest=sp.querySelector('.rest'), t=names[l], i=0;
+    rest.classList.remove('show'); rest.classList.add('hide');
+    typed.textContent=''; var txt=document.createTextNode(''), c=document.createElement('span');
+    c.className='caret'; c.setAttribute('aria-hidden','true'); typed.appendChild(txt); typed.appendChild(c);
+    (function step(){ txt.nodeValue=t.slice(0,++i);
+      if(i<t.length){ timer=setTimeout(step, 70+Math.random()*50); }
+      else { timer=setTimeout(function(){ c.classList.add('done'); rest.classList.add('show'); }, 250); }
+    })();
+  }
+  h.querySelectorAll('.rest').forEach(function(r){ if(!reduce) r.classList.add('hide'); });
+  setTimeout(play, 450);
+  document.querySelectorAll('.toggle button').forEach(function(b){b.addEventListener('click',function(){
+    Object.keys(names).forEach(function(k){ var sp=h.querySelector(':scope > [lang="'+k+'"]'); sp.querySelector('.typed').textContent=names[k]; sp.querySelector('.rest').classList.add('show'); });
+    play();
+  });});
+
+  // duplicate marquee for seamless loop
+  var m=document.getElementById('marquee'); m.innerHTML+=m.innerHTML;
+  [].slice.call(m.children).slice(m.children.length/2).forEach(function(n){n.setAttribute('aria-hidden','true');});
+
+  var hdr=document.getElementById('hdr'), top=document.getElementById('toTop');
+  function onScroll(){var y=window.scrollY; hdr.classList.toggle('scrolled',y>8); top.classList.toggle('show',y>700);}
+  window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  } else { root.classList.add('js-off'); }
+})();
+</script>
+</body>
+</html>
