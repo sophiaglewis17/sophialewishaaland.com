@@ -110,17 +110,15 @@ h3{font-size:22px;font-weight:600;line-height:1.3;margin:0}
 .card p{margin:0;color:var(--muted);font-size:15px}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
 .chips span{font-size:13px;background:var(--panel);border-radius:999px;padding:4px 10px;color:#4a4a44}
-.featured{display:flex;gap:28px;align-items:flex-start;margin-top:48px;background:#fff;border:1px solid var(--line);border-left:4px solid var(--emerald);border-radius:20px;padding:28px 32px}
-.featured img{width:64px;height:64px;border-radius:12px;flex:none;border:1px solid var(--line)}
-.featured .fhead{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px}
-.featured h3{font-size:21px;margin:0}
-.featured .issuer{color:var(--muted);font-size:15px}
-.featured ul{list-style:none;margin:0;padding:0;flex:1}
+.featured-list{display:grid;gap:14px;margin-top:48px}
+.featured{display:flex;gap:22px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-left:4px solid var(--emerald);border-radius:18px;padding:22px 26px}
+.featured img{width:56px;height:56px;border-radius:10px;flex:none;border:1px solid var(--line)}
 .featured .fbody{flex:1;min-width:0}
-.featured li{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-top:1px solid var(--line);font-size:16px}
-.featured li:first-child{border-top:0}
-.featured li span:last-child{color:var(--muted);white-space:nowrap;font-size:15px}
-@media (max-width:640px){.featured{flex-direction:column;gap:16px;padding:22px}.featured img{width:52px;height:52px}}
+.featured h3{font-size:18px;margin:0 0 2px;line-height:1.35}
+.featured .meta{color:var(--muted);font-size:15px;margin:0;overflow-wrap:anywhere}
+.featured .cred{display:inline-flex;align-items:center;gap:6px;margin-top:12px;padding:6px 16px;border:1px solid var(--ink);border-radius:999px;color:var(--ink);text-decoration:none;font-size:14px;font-weight:500;transition:background .2s,color .2s}
+.featured .cred:hover,.featured .cred:focus-visible{background:var(--emerald);border-color:var(--emerald);color:#fff}
+@media (max-width:640px){.featured{gap:14px;padding:18px}.featured img{width:44px;height:44px}}
 .certs{display:grid;grid-template-columns:repeat(2,1fr);gap:0 48px;margin-top:48px}
 .cert{display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-top:1px solid var(--line);font-size:16px}
 .cert span:last-child{color:var(--muted);white-space:nowrap;font-size:15px}
@@ -409,15 +407,36 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
           </div>
         </div>
 
-        <div class="featured">
-          <img src="anthropic.png" alt="Anthropic logo" width="64" height="64">
-          <div class="fbody">
-            <div class="fhead"><h3>Claude Academy</h3><span class="issuer">Anthropic</span></div>
-            <ul>
-              <li><span>Introduction to Claude Cowork</span><span><span lang="en">Nov 2026</span><span lang="nb">nov. 2026</span></span></li>
-              <li><span>AI Fluency: Framework and Foundations</span><span><span lang="en">Nov 2026</span><span lang="nb">nov. 2026</span></span></li>
-              <li><span>Claude 101</span><span><span lang="en">Oct 2026</span><span lang="nb">okt. 2026</span></span></li>
-            </ul>
+        <div class="featured-list">
+          <div class="featured">
+            <img src="anthropic.png" alt="Anthropic logo" width="56" height="56">
+            <div class="fbody">
+              <h3>Claude Academy: Introduction to Claude Cowork</h3>
+              <p class="meta">Anthropic</p>
+              <p class="meta"><span lang="en">Issued Nov 2026</span><span lang="nb">Utstedt nov. 2026</span></p>
+              <p class="meta"><span lang="en">Credential ID</span><span lang="nb">Legitimasjons-ID</span> 2674b9f327165e94d47417c96c36d3d0</p>
+              <a class="cred" href="https://academy.claude.com/verify/2674b9f327165e94d47417c96c36d3d0" target="_blank" rel="noopener"><span lang="en">Show credential</span><span lang="nb">Vis legitimasjon</span> ↗</a>
+            </div>
+          </div>
+          <div class="featured">
+            <img src="anthropic.png" alt="Anthropic logo" width="56" height="56">
+            <div class="fbody">
+              <h3>Claude Academy: AI Fluency: Framework and Foundations</h3>
+              <p class="meta">Anthropic</p>
+              <p class="meta"><span lang="en">Issued Nov 2026</span><span lang="nb">Utstedt nov. 2026</span></p>
+              <p class="meta"><span lang="en">Credential ID</span><span lang="nb">Legitimasjons-ID</span> 026043ac9973690fbe4b1b843db63619</p>
+              <a class="cred" href="https://academy.claude.com/verify/026043ac9973690fbe4b1b843db63619" target="_blank" rel="noopener"><span lang="en">Show credential</span><span lang="nb">Vis legitimasjon</span> ↗</a>
+            </div>
+          </div>
+          <div class="featured">
+            <img src="anthropic.png" alt="Anthropic logo" width="56" height="56">
+            <div class="fbody">
+              <h3>Claude Academy: Claude 101</h3>
+              <p class="meta">Anthropic</p>
+              <p class="meta"><span lang="en">Issued Oct 2026</span><span lang="nb">Utstedt okt. 2026</span></p>
+              <p class="meta"><span lang="en">Credential ID</span><span lang="nb">Legitimasjons-ID</span> f93cd43646451f6007560a8152110bc7</p>
+              <a class="cred" href="https://academy.claude.com/verify/f93cd43646451f6007560a8152110bc7" target="_blank" rel="noopener"><span lang="en">Show credential</span><span lang="nb">Vis legitimasjon</span> ↗</a>
+            </div>
           </div>
         </div>
 
